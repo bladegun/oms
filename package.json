@@ -1,14 +1,14 @@
 {
   "name": "ts-overlapping-marker-spiderfier",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Overlapping Marker Spiderfier",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "author": "Mark van Beek <mark@appelit.com>",
-  "homepage": "https://github.com/chancezeus/oms#readme",
+  "author": "Thum Chee Chon <bladegun@gmail.com>",
+  "homepage": "https://github.com/bladegun/oms#readme",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chancezeus/oms/issues"
+    "url": "https://github.com/bladegun/oms/issues"
   },
   "keywords": [
     "google maps",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chancezeus/oms.git"
+    "url": "git+https://github.com/bladegun/oms.git"
   },
   "scripts": {
     "clean": "rimraf ./dist",
@@ -26,7 +26,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@types/googlemaps": "^3.30.7"
+    "@types/google.maps": "^3.45.1"
   },
   "devDependencies": {
     "rimraf": "^2.6.2",
